@@ -54,7 +54,7 @@ export default function FormRegister() {
           {isLoading ? "Logging in..." : "Register"}
         </Button>
         <div className="flex justify-center items-center text-center">
-          sudah mempunyai akun?{" "}
+        Already have an account ?{" "}
           <a href="/" className="text-blue-500 ml-2">
             Login
           </a>

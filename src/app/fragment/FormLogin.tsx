@@ -54,7 +54,7 @@ useEffect(() => {
             <FormInput name="email" label="Email" type="email" placeholder="m@example.com" autocomplete="current-email" />
             <FormInput name="password" label="Password" type="password" placeholder="******" autocomplete="current-password" />
             <div className="flex justify-center items-center text-center">
-            Belum mempunyai akun? <a href="/register" className="text-blue-500 ml-2">Register</a>
+            Don't have an account <a href="/register" className="text-blue-500 ml-2">Register</a>
           </div>
             <Button type="submit" className="w-full justify-center"  disabled={isLoading}>
             {isLoading ? "Logging in..." : "Login"}
